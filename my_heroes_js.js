@@ -1,7 +1,7 @@
 // make data
 var chart = c3.generate({
     data: {
-        url: '/My_Heroes_csv.csv',
+        url: '/my_heroes_csv.csv',
         type: 'scatter'
     }
 });
