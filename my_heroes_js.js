@@ -1,5 +1,6 @@
 // make chart
 var chart = c3.generate({
+    bindto: '#chart',
     data: { // specify the data to be used in the chart
         url: 'my_heroes_csv.csv',
         type: 'scatter',
