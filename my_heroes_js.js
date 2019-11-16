@@ -2,7 +2,8 @@
 var chart = c3.generate({
     data: { // specify the data to be used in the chart
         url: 'my_heroes_csv.csv',
-        type: 'scatter'
+        type: 'scatter',
+        x:'Like'
     },
     size: { // specify the chart size
       height: 340,
