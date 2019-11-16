@@ -8,7 +8,6 @@ var chart = c3.generate({
 
 // make chart from data
 var chart = c3.generate({
-    bindto: '#target', // specify the DOM element to which the chart will be bound
     data: chart, // specify the data to be used in the chart
     size: { // specify the chart size
       height: 340,
