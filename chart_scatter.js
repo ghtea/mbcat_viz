@@ -1,4 +1,5 @@
 var chart = c3.generate({
+    bindto: '#chart',
     data: {
         xs: {
             setosa: 'setosa_x',
